@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@font-face {
+    font-family: "ShareTech";
+    src: url("./assets/ShareTech-Regular.ttf");
+    }
+
+body{
+    background-color:#36393f;
+    color: #f0f0f0;
+    font-family: 'ShareTech';
+    text-align:center;
+}
+header{
+    text-align: center;
+    font-size: 72px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2{
+    font-size:24px;
+    margin-bottom:15px;
+}
+footer{
+    padding-bottom:20px;
+    width: 100%;
+    text-align: center;
+}
+footer a{
+    color:#f0f0f0;
+}
+input, button{
+    font-family:  'ShareTech';
+}
+#container{
+    width:60%;
+    margin:auto;
+}
+.logo{
+    margin-right:10px;
+}
+#input-fields{
+    width:100%;
+    height:35px;
+    margin:auto;
+    margin-bottom:40px;
+}
+.reminder-input{
+    border-radius:5px;
+    height:35px;
+    padding:10px;
+    width:50%;
+    margin-right:10px;
+    background-color:#26272a;
+    color:#f0f0f0;
+    border:none;
+    font-size:16px;
+}
+.reminder-time{
+    border-radius:5px;
+    height:35px;
+    padding:10px;
+    margin-right:10px;
+    background-color:#26272a;
+    color:#f0f0f0;
+    border:none;
+    font-size:16px;
+    width:30%;
+}
+.reminder-input:focus{
+    outline:none;
+}
+.reminder-time{
+    outline:none;
+}
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    margin-top:6px;
+    background: url(./images/arrow-down.png) no-repeat;
+    width: 16px;
+    height: 16px;
+}
+#reminder-container{
+    width: 100%;
+    margin:auto;
+    background-color:#2f3136;
+    border-radius: 10px;
+    margin-bottom:60px;
+}
+.reminder{
+    list-style-type: none;
+    font-size:36px;
+    width:99%;
+    margin:auto;
+   
+}
+ul li:last-child{
+    border:none;
+}
+.reminder-text{
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-right:20px;
+    border-bottom:3px solid #242426;
+}
+.reminder-date{
+  margin-right: 20px;
+}
+.btn{
+    width:100px;
+    vertical-align: middle;
+    border:none;
+    color:#f0f0f0;
+    font-size:16px;
+    border-radius: 5px;
+    height:25px;
+    outline:none;
+    margin-bottom:7px;
+}
+.btn.red:hover{
+
+    background-color:#e45a5a;
+}
+.btn.red:active{
+    border:none;
+    background-color:#a53b3b;
+
+}
+.btn.red{
+    margin-left:10px;
+    background-color: #c84d4d;
+
+}
+.btn.blue{
+    background-color:#4b898f;
+}
+.btn.blue:hover{
+    background-color:#56a2a9;
+}
+.btn.blue:active{
+    background-color:#3f7479;
+}
+
+.btn.submit{
+    background-color:#4b898f;
+    margin-top:5px;
+}
+.btn.submit:hover{
+    background-color:#56a2a9;
+}
+.btn.submit:active{
+    background-color:#3f7479;
+}
+
+
