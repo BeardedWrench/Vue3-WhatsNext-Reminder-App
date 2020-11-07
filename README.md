@@ -2,7 +2,7 @@
 
 ## Simple Reminder App
 
-### ToDO:
+### TODO:
 ```
 Add edit button functionality 
 Possibly add timestamps
