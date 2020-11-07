@@ -2,6 +2,11 @@
 
 ## Simple Reminder App
 
+## Demo
+```
+https://whatsnext-reminder.netlify.app/
+````
+
 ### TODO:
 ```
 Add edit button functionality 
